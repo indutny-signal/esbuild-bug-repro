@@ -1,0 +1,16 @@
+{
+  "name": "abc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "install": "esbuild *.js --platform=node --target=node16 --format=cjs --outdir=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.21"
+  }
+}
